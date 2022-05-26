@@ -15,7 +15,7 @@ app.get("/api/test",()=>{
 
 app.use(express.json());
 // User endpoint
-app.use("/api/user",userRoute);
+app.use("/api/users/",userRoute);
 app.use("/api/auth",authRoute);
 
 
